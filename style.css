@@ -9,6 +9,10 @@ body {
   background-color: #fff;
 }
 
+.typography {
+  font-family: Poppins;
+  font-style: normal;
+}
 .bg-light {
   background-color: #fff !important;
 }
@@ -38,4 +42,82 @@ body {
   color: #344563;
 }
 
+.hero-header ul {
+  padding: 0;
+}
 
+.first-connect.first {
+  color:#7F8cff;
+}
+.hero-header ul a {
+  color: #505f79;
+}
+
+.list {
+  list-style: none;
+}
+.list-item {
+  padding: 0 20px 0 20px;
+  font-size: 32px;
+}
+
+.list-item:first-child {
+  padding-left: 0;
+}
+
+.container .row {
+  height: 448px;
+}
+.portfolio-img1 {
+  background-image: url(img/Snapshoot-Portfolio.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.portfolio-des {
+  padding: 20px 50px;
+}
+
+.portfolio-des ul li{
+  padding: 0 30px 0 0;
+  color: #6b778c;
+}
+
+.portfolio-des ul:nth-child(2){
+  list-style: none;
+}
+
+.portfolio-des h4 {
+  font-size: 40px;
+  line-height: 52px;
+  color: #091e42;
+}
+
+.portfolio-des ul p {
+  padding-top: 32px;
+  color: #344563;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.portfolio-des a {
+  text-decoration: none;
+  color: #6070ff;
+  padding: 0 20px 0 10px;
+  margin: 8px;
+  background-color: #ebebff;
+  border-radius: 8px;
+}
+
+.portfolio-des button {
+  height: 20px;
+  margin-top: 32px;
+  background-color: #fff;
+  border: 1px solid #Dfe1e6;
+  border-radius: 10px;
+  font-weight: 500;
+  font-size: 17px;
+  padding: 20px;
+  line-height: 24px;
+}
