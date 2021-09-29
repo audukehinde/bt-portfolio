@@ -4,10 +4,38 @@
   box-sizing: border-box;
 }
 
-.header-bg-color {
+body {
+  font-family: 'Poppins', sans-serif;
   background-color: #fff;
 }
 
-.collapse ul {
-  float: right;
+.bg-light {
+  background-color: #fff !important;
 }
+
+.navbar-brand {
+  color: #6070FF !important;
+}
+
+.nav-link {
+  color: #344563 !important;
+}
+
+.hero {
+  background-image: url(img/header.svg);
+}
+
+.hero-header {
+  margin: 8em 0;
+}
+
+.hero-header h1 {
+  font-size: 3.5em;
+  color: #091E42;
+}
+
+.hero-header p {
+  color: #344563;
+}
+
+
