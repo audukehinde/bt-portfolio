@@ -6,7 +6,19 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+  background-color: #E5E5E5;
+}
+
+.container-fluid {
   background-color: #fff;
+  background-image: url(img/Ellipse-3.png),
+    url(img/Rectangle-4.png), 
+    url(img/Ellipse-11.png),
+    url(img/Rectangle-6.png);
+  background-repeat: no-repeat;
+  background-position: right top 80px, right 70px top, left top 90px, left -20px top;
+  z-index: 1;
+  border-radius: 0 0px 0 10%;
 }
 
 .typography {
@@ -38,12 +50,8 @@ h6 {
   color: #344563 !important;
 }
 
-.hero {
-  background-image: url(img/header.svg);
-}
-
 .hero-header {
-  margin: 8em 0;
+  padding: 8em 0;
 }
 
 .hero-header h2 {
@@ -81,10 +89,13 @@ h6 {
 .container .row {
   height: 448px;
 }
-.portfolio-img1 {
-  background-image: url(img/Snapshoot-Portfolio.svg);
-  background-repeat: no-repeat;
-  background-size: cover;
+
+.card {
+  border-radius: 20px;
+}
+
+.show-project {
+  margin-top: 6em;
 }
 
 .portfolio-des, 
@@ -125,15 +136,15 @@ h6 {
 }
 
 .portfolio-des button {
-  height: 20px;
-  margin-top: 32px;
   background-color: #fff;
-  border: 1px solid #Dfe1e6;
-  border-radius: 10px;
-  font-weight: 500;
-  font-size: 17px;
-  padding: 20px;
-  line-height: 24px;
+  border: 1px solid #396DF2;
+  color: #396DF2;
+  font-size: 12px;
+
+}
+
+.typography ul {
+  padding-left: 0 !important;
 }
 
 .about-section {
