@@ -13,6 +13,19 @@ body {
   font-family: Poppins;
   font-style: normal;
 }
+
+h6 {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #344563;
+}
+
+.margin-tp {
+  margin-top: 8em;
+}
+
 .bg-light {
   background-color: #fff !important;
 }
@@ -33,7 +46,7 @@ body {
   margin: 8em 0;
 }
 
-.hero-header h1 {
+.hero-header h2 {
   font-size: 3.5em;
   color: #091E42;
 }
@@ -46,7 +59,7 @@ body {
   padding: 0;
 }
 
-.first-connect.first {
+.first-connect.first-connect {
   color:#7F8cff;
 }
 .hero-header ul a {
@@ -74,7 +87,8 @@ body {
   background-size: cover;
 }
 
-.portfolio-des {
+.portfolio-des, 
+.about-des {
   padding: 20px 50px;
 }
 
@@ -121,3 +135,53 @@ body {
   padding: 20px;
   line-height: 24px;
 }
+
+.about-section {
+  background-color: #fff;
+  border-top-right-radius: 100px;
+}
+.summary {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  margin: 12px 0px;
+  width: 447px;
+  height: 102px;
+}
+
+.about-head {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  margin: 12px 0px;
+  width: 447px;
+}
+
+.abo {
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+}
+
+.about-des ul {
+  list-style: none;
+}
+
+.about-des ul li {
+  padding: 0 20px 0 20px;
+  color: #253858;
+}
+
+h6 i {
+  padding-left: 30rem;
+}
+
+footer {
+  background-color: #6070ff;
+  border-top-left-radius: 100px;
+  height: 846px;
+  background-image: url(img/contact-form-background-shapes.svg);
+}
+
+
