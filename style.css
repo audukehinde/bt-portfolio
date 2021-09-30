@@ -189,10 +189,28 @@ h6 i {
 }
 
 footer {
+  background-color: #fff;
+}
+
+.footer-main {
+  padding-top: 3em;
   background-color: #6070ff;
-  border-top-left-radius: 100px;
-  height: 846px;
+  border-radius: 15% 0 0 0;
+  height: 100vh;
   background-image: url(img/contact-form-background-shapes.svg);
 }
 
+.color {
+  color: #fff;
+}
 
+.textarea-height {
+  height: 90%;
+}
+
+form button {
+  border: #fff;
+  background-color: #fff;
+  color: #6070FF;
+  ;
+}
